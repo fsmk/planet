@@ -16,11 +16,10 @@ To add a new blog, following steps need to be followed:
 
     where,
     
-         "Link to the feed of the blog" is the RSS feed of the blogs with tag as FSMK.
-         [Check this for more details.]()
-         
+         "Link to the feed of the blog" is the feed of the blogs with tag as FSMK. 
          "Your name" is the name that you want to be displayed in the planet.
 </code></pre>
+    [Check this blog for more details on getting feed from various blogs.](http://blog.viggy.in/?p=757)
 
 3. Commit the same to your project and send a pull request as a fix to the issue raised in Step 1.
 
