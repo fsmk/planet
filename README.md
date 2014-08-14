@@ -16,7 +16,8 @@ To add a new blog, following steps need to be followed:
 
     where,
     
-         "Link to the feed of the blog" is the RSS feed of the blogs with tag as FSMK. [Check this for more details.]()
+         "Link to the feed of the blog" is the RSS feed of the blogs with tag as FSMK.
+         [Check this for more details.]()
          
          "Your name" is the name that you want to be displayed in the planet.
 </code></pre>
