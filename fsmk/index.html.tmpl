@@ -25,6 +25,9 @@
 <div class="banner">
 	<div class="header">
 	</div>
+        <div class="footer">
+                <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" title="CC BY SA 4.0"><img src="http://blog.viggy.in/wp-content/uploads/2014/09/1000px-cc-by-sa_icon-svg.png" width="200px" height="70px"></a>
+        </div>
 </div>
 <div class="after_banner">
 <h1><TMPL_VAR name></h1>
@@ -45,7 +48,7 @@
                         </div>
                 </div>
                 <div class="entryfooter">
-                        <img class="hackergotchi" src="images/<TMPL_VAR channel_face ESCAPE="HTML">" alt="face">
+                        <img class="hackergotchi" src="images/hackergotchis/<TMPL_VAR channel_face ESCAPE="HTML">" alt="face">
                         <br/>
                         <div class="name">
                                 <a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name></a>
@@ -58,17 +61,31 @@
 
 <div class="sidebar">
 <img src="images/logo.png" width="136" height="136" alt="">
-<p>
-<strong>Last updated:</strong><br>
-<TMPL_VAR date><br>
-<em>All times are UTC.</em><br>
 <br>
-Powered by:<br>
-<a href="http://www.planetplanet.org/"><img src="images/planet.png" width="80" height="15" alt="Planet" border="0"></a>
-</p>
-
+<h2>Our Contributors</h2>
+<a href="contributors.php"><img src="images/contributors.png" width="136" height="136" alt=""></a>
+<h2>Alternate Formats</h2>
+<ul>
+        <li><a href="rss20.xml" title="Rich Site Summary version 2.0">RSS 2.0</a></li>
+        <li><a href="rss10.xml" title="Rich Site Summary version 1.0">RSS 1.0</a></li>
+        <li><a href="foafroll.xml" title="Friend of a Friend">FOAF</a></li>
+        <li><a href="opml.xml" title="Outline Processor Markup Language">OPML</a></li>          
+</ul>
 </div>
 </div> <!--- After banner -->
+<div class="footer">
+        <p>
+                This is a planet of all units and volunteers of <a href="http://fsmk.org" target="_blank">FSMK</a>. We hope that this becomes the central place to get different views and updates from various sources. 
+        </p>
+        <p>
+                <strong>Last updated:</strong> September 02, 2014 04:00 AM.<em>All times are UTC.</em><br>
+                Powered by:<a href="http://www.planetplanet.org/"><img src="images/planet.png" width="80" height="15" alt="Planet" border="0"></a>
+        </p>
+        <p>
+
+                Content in this planet is released under <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" title="CC BY SA 4.0"><img src="images/cc-by-sa_icon.png" width="90px" height="30px"></a> 
+        </p>
+</div>
 </body>
 
 </html>

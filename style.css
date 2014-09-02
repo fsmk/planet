@@ -18,7 +18,7 @@ body {
 	margin: 0; 
 	padding: 0;
 	background: #dcdcdc;
-	background-image: url(bg_tile.jpg);
+	background-image: url(images/bg_tile.jpg);
 	background-repeat: repeat-y;
 	background-position: top right;
 }
