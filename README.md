@@ -6,7 +6,7 @@ This is a project for storing the configuration, images and stylesheets of the F
 ##Adding new Blog
 
 To add a new blog, following steps need to be followed:
-
+0. We want to only show FSMK related blogs in the planet. Hence you need to ensure that all blogs related to FSMK are tagged with "FSMK" tag. 
 1. Raise an issue in the project mentioning your association with FSMK and Free Software in general. Also share links to 3 blogs that you have written in your blog related to Free Software. This is just a simple screening criteria to ensure that we do not have too many blogs which are mostly inactive.
 2. Fork the project on github and add the following to the config.ini file which is in "fsmk" directory.
 <pre><code>
